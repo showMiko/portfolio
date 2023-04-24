@@ -1,9 +1,13 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.5e4be797.css",
-    "main.js": "/portfolio/static/js/main.2dd3e00c.js",
+    "main.css": "/portfolio/static/css/main.d4dfd0e2.css",
+    "main.js": "/portfolio/static/js/main.e99756e3.js",
+    "static/media/Mouse.jpg": "/portfolio/static/media/Mouse.81d756ebdef5bae345d4.jpg",
+    "static/media/UnityGame.jpg": "/portfolio/static/media/UnityGame.08b054f9ee7fb136f5a7.jpg",
+    "static/media/imdb.jpg": "/portfolio/static/media/imdb.953db61dd6af87ad64c7.jpg",
     "static/media/food fiesta.jpg": "/portfolio/static/media/food fiesta.9c6fd5dab8336e34c4f4.jpg",
     "static/media/color-sharp2-green.png": "/portfolio/static/media/color-sharp2-green.7a9d9f5f2d67ee626f8b.png",
+    "static/media/contact.png": "/portfolio/static/media/contact.77b0f6ea27f0b4a0048e.png",
     "static/media/unity.png": "/portfolio/static/media/unity.b196c776e313b0a0c14f.png",
     "static/media/Yoda-vs-Vader.jpg": "/portfolio/static/media/Yoda-vs-Vader.10f2b04683f0f1101aa4.jpg",
     "static/media/ai trainer.jpg": "/portfolio/static/media/ai trainer.7feaed59387a2fa86222.jpg",
@@ -21,7 +25,6 @@
     "static/media/C Sharp.png": "/portfolio/static/media/C Sharp.7f7159aad7bc573d9ddf.png",
     "static/media/password.jpg": "/portfolio/static/media/password.724c09ae0b112cb0e30c.jpg",
     "static/media/Discord.png": "/portfolio/static/media/Discord.1eb3445cca7f34ec523c.png",
-    "static/media/contact-img.svg": "/portfolio/static/media/contact-img.87eac2b29352fa01abb2f9510ef6ac7e.svg",
     "static/media/MERN.png": "/portfolio/static/media/MERN.563759306269faca2961.png",
     "static/media/C.png": "/portfolio/static/media/C.fab8ef9084e67e278564.png",
     "static/media/JS.png": "/portfolio/static/media/JS.ba8930b16477cd078808.png",
@@ -34,11 +37,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.5e4be797.css.map": "/portfolio/static/css/main.5e4be797.css.map",
-    "main.2dd3e00c.js.map": "/portfolio/static/js/main.2dd3e00c.js.map"
+    "main.d4dfd0e2.css.map": "/portfolio/static/css/main.d4dfd0e2.css.map",
+    "main.e99756e3.js.map": "/portfolio/static/js/main.e99756e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e4be797.css",
-    "static/js/main.2dd3e00c.js"
+    "static/css/main.d4dfd0e2.css",
+    "static/js/main.e99756e3.js"
   ]
 }
