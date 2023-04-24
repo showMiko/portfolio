@@ -8,6 +8,7 @@ import navIcon2 from "../assets/img/nav-icon2.svg"
 import navIcon3 from "../assets/img/nav-icon3.svg"
 import navIcon4 from "../assets/img/github.png"
 import navIcon5 from "../assets/img/Discord.png"
+import { DragHandleIcon } from '@chakra-ui/icons'
 import {
   Modal,
   ModalOverlay,
@@ -50,7 +51,9 @@ export default function NavBar() {
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" >
           <span className='navbar-toogler-icon'>
-            X
+          <Button colorScheme='teal' variant='solid'>
+              <DragHandleIcon/>
+          </Button>
           </span>
         </Navbar.Toggle>
         <Navbar.Collapse id="basic-navbar-nav">
