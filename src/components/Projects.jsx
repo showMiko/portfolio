@@ -5,6 +5,9 @@ import projImg3 from "../assets/Projects/ai trainer.jpg"
 import projImg4 from "../assets/Projects/calculator.jpg"
 import projImg5 from "../assets/Projects/todolist.jpg"
 import projImg6 from "../assets/Projects/food fiesta.jpg"
+import projImg7 from "../assets/Projects/imdb.jpg"
+import projImg8 from "../assets/Projects/Mouse.jpg"
+import projImg9 from "../assets/Projects/UnityGame.jpg"
 import { Col, Container, Nav, Row, Tab, TabContent } from 'react-bootstrap'
 import ProjectCard from './ProjectCard'
 import colorSharp2 from "../assets/img/color-sharp2-green.png"
@@ -23,6 +26,32 @@ const Projects = () => {
             imgUrl: projImg2
         },
         {
+            title: "Unity Game",
+            description: "Unity Engine",
+            imgUrl: projImg9
+        },
+        {
+            title: "Mern App",
+            description: "Web Development",
+            imgUrl: projImg6
+        },
+        {
+            title: "IMDB-CLONE",
+            description: "Web Development",
+            imgUrl: projImg7
+        },
+        {
+            title: "Virtual Mouse",
+            description: "Computer vision",
+            imgUrl: projImg8
+        },
+        {
+            title: "Todo List",
+            description: "Web Development",
+            imgUrl: projImg5
+        },
+        {
+            
             title: `AI Trainer (in progress)`,
             description: "Computer vision",
             imgUrl: projImg3
@@ -31,31 +60,6 @@ const Projects = () => {
             title: "Calculator",
             description: "Web Development",
             imgUrl: projImg4
-        },
-        {
-            title: "Todo List",
-            description: "Web Development",
-            imgUrl: projImg5
-        },
-        {
-            title: "Mern App",
-            description: "Web Development",
-            imgUrl: projImg6
-        },
-        {
-            title: "Star Wars",
-            description: "Computer vision",
-            imgUrl: projImg1
-        },
-        {
-            title: "Star Wars",
-            description: "Computer vision",
-            imgUrl: projImg2
-        },
-        {
-            title: "Star Wars",
-            description: "Computer vision",
-            imgUrl: projImg3
         },
     ]
 
