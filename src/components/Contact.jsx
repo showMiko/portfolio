@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
-import contacting from "../assets/img/contact-img.svg"
+// import contacting from "../assets/img/contact-img.svg"
+import contacting from "../assets/img/contact.png"
 
 const Contact = () => {
 

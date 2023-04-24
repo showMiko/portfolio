@@ -50,7 +50,7 @@ const Banner = () => {
             <Row className='align-items-center'>
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to My PortFolio</span>
-                    <h1 style={{marginRight:"9%"}}>{`Hi I am Soumik I am a `}<span className='wrap'>{text}</span></h1>
+                    <h1 className='header-files' style={{marginRight:"9%"}}>{`Hi I am Soumik I am a `}<span className='wrap'>{text}</span></h1>
                     <p>Hello. I am Soumik Samanta. I am Currently in my 3rd Year Pursuing my Btech from Academy Of Technology.</p>
                     <button onClick={()=>console.log("connect")}>Let's Connect<ArrowRightCircle/></button>
                 </Col>
