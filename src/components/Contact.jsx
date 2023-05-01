@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { Col, Container, Row } from 'react-bootstrap';
 // import contacting from "../assets/img/contact-img.svg"
 import contacting from "../assets/img/contact.png"
+import emailjs from "emailjs-com"
 
 const Contact = () => {
 
@@ -24,31 +25,21 @@ const Contact = () => {
         })
     }
 
-    const handleSubmit= async(e)=>{
+    const sendEmail=(e)=>{
         e.preventDefault();
         setButtonText("Sending....")
-        let response= await fetch("http://localhost:5000/contact",{
-            method:"POST",
-            headers:{
-                "Content-Type":'Application/json'
-            },
-            body:JSON.stringify(formDetail)
+        emailjs.sendForm(
+            'service_jsijdgn',
+            'template_uhpuksk',
+            e.target,
+            "g2LyF6t2SZtG6kKU4"
+        ).then(res=>{
+            setStatus({success:true,message:"Message Sent Successfully"})
+        }).catch(err=>{
+            setStatus({success:false,message:"Something went Wrong. Please Try again Later"});
         })
         setButtonText("Send");
-        let result=response.json();
-        setFormDetail(formInitialDetails);
-        console.log(response.status)
-
-        if(response.status===200)
-        {
-            setStatus({success:true,message:"Message Sent Successfully"})
-        }
-        else
-        {
-            setStatus({success:false,message:"Something went Wrong. Please Try again Later"});
-        }
-    }
-    
+    }    
   return (
     <section className='contact' id="contact">
         <Container>
@@ -58,22 +49,22 @@ const Contact = () => {
                 </Col>
                 <Col md={6}>
                     <h2>Get in Touch</h2>
-                    <form onSubmit={handleSubmit}>
+                    <form onSubmit={sendEmail}>
                         <Row>
                             <Col sm={6} className='px-1'>
-                                <input type="text" value={formDetail.firstName} placeholder='First Name' onChange={(e)=>onFormUpdate('firstName',e.target.value)}/>
+                                <input type="text" value={formDetail.firstName} name='first-name' placeholder='First Name' onChange={(e)=>onFormUpdate('firstName',e.target.value)}/>
                             </Col>
                             <Col sm={6} className='px-1'>
-                                <input type="text" value={formDetail.lastName} placeholder='Last Name' onChange={(e)=>onFormUpdate('lastName',e.target.value)}/>
+                                <input type="text" value={formDetail.lastName} name='last-name' placeholder='Last Name' onChange={(e)=>onFormUpdate('lastName',e.target.value)}/>
                             </Col>
                             <Col sm={6} className='px-1'>
-                                <input type="email" value={formDetail.email} placeholder='Email' onChange={(e)=>onFormUpdate('email',e.target.value)}/>
+                                <input type="email" value={formDetail.email} name='email' placeholder='Email' onChange={(e)=>onFormUpdate('email',e.target.value)}/>
                             </Col>
                             <Col sm={6} className='px-1'>
-                            <input type="tel" value={formDetail.phone} placeholder='Phone No.' onChange={(e)=>onFormUpdate('phone',e.target.value)}/>
+                            <input type="tel" value={formDetail.phone} name='phone' placeholder='Phone No.' onChange={(e)=>onFormUpdate('phone',e.target.value)}/>
                             </Col>
                             <Col>
-                            <textarea rows={6} value={formDetail.message} placeholder='Type your Message' onChange={(e)=>onFormUpdate('message',e.target.value)}></textarea>
+                            <textarea rows={6} value={formDetail.message} name='message' placeholder='Type your Message' onChange={(e)=>onFormUpdate('message',e.target.value)}></textarea>
                             <button type="submit">{buttonText}</button>
                             </Col>
                             {
