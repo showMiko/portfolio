@@ -23,7 +23,7 @@ const Item = styled.div`
   position: absolute;
   top: auto;
   left: auto;
-  width: 200px;
+  width: 10%;
   height: 200px;
   background-color: #f5f5f5;
   border-radius: 50%;
@@ -62,19 +62,20 @@ const Carousel = () => {
     <Container>
       {items.map((item, index) => (
         <Item
+
           key={item.id}
           rotate={(index * 360) / items.length + 360 / (2 * items.length)}
           style={{background:"transparent",
             transform: `rotate(${
               ((index - current + items.length) % items.length) *
               (360 / items.length)
-            }deg) translateY(-200px) rotate(${
+            }deg) translateY(-100%) rotate(${
               -((index - current + items.length) % items.length) *
               (360 / items.length)
             }deg)`,
           }}
         >
-          <img src={item.imgUrl} style={{width:"100px" }} alt="" srcset="" />
+          <img src={item.imgUrl}  alt="" srcset="" />
         </Item>
       ))}
     </Container>
