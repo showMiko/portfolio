@@ -17,13 +17,14 @@ const Container = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
 `;
 
 const Item = styled.div`
   position: absolute;
   top: auto;
   left: auto;
-  width: 10%;
+  width: 3em;
   height: 200px;
   background-color: #f5f5f5;
   border-radius: 50%;
@@ -69,7 +70,7 @@ const Carousel = () => {
             transform: `rotate(${
               ((index - current + items.length) % items.length) *
               (360 / items.length)
-            }deg) translateY(-100%) rotate(${
+            }deg) translateY(-80%) rotate(${
               -((index - current + items.length) % items.length) *
               (360 / items.length)
             }deg)`,
