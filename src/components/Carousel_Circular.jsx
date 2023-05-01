@@ -32,7 +32,7 @@ const Item = styled.div`
   justify-content: center;
   align-items: center;
   font-size: 2rem;
-  transition: all 0.3s ease-in-out;
+  transition: all 0.4s ease-in-out;
   transform-origin: center center;
   transform: ${(props) =>
     `rotate(${props.rotate}deg) translateY(-200px) rotate(${-props.rotate}deg)`};
@@ -55,7 +55,7 @@ const Carousel = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrent((current + 1) % items.length);
-    }, 3000);
+    }, 500);
     return () => clearInterval(interval);
   }, [current, items.length]);
 
