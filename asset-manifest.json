@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.a2c1e0df.css",
-    "main.js": "/portfolio/static/js/main.f1552aa6.js",
+    "main.css": "/portfolio/static/css/main.855398ce.css",
+    "main.js": "/portfolio/static/js/main.cd39ab3f.js",
     "static/media/Mouse.gif": "/portfolio/static/media/Mouse.6b56ad2639742223123c.gif",
     "static/media/imdb.gif": "/portfolio/static/media/imdb.143e22861e57b842ef8a.gif",
     "static/media/food fiesta.gif": "/portfolio/static/media/food fiesta.f02b4f4ab2005df9682c.gif",
@@ -11,24 +11,25 @@
     "static/media/calculater.gif": "/portfolio/static/media/calculater.30b97a625e05aa9aac73.gif",
     "static/media/color-sharp2-green.png": "/portfolio/static/media/color-sharp2-green.7a9d9f5f2d67ee626f8b.png",
     "static/media/contact.png": "/portfolio/static/media/contact.77b0f6ea27f0b4a0048e.png",
-    "static/media/unity.png": "/portfolio/static/media/unity.b196c776e313b0a0c14f.png",
     "static/media/pngwing.com (3).png": "/portfolio/static/media/pngwing.com (3).f7cf39334c9c0b464f5d.png",
     "static/media/giphy.gif": "/portfolio/static/media/giphy.94e1de75e2c064111308.gif",
-    "static/media/css.png": "/portfolio/static/media/css.19c8605d6b2861f5fbe0.png",
     "static/media/footer-bg-green.png": "/portfolio/static/media/footer-bg-green.51ed3466d505365c4764.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/html.png": "/portfolio/static/media/html.4de5d2224c60b7fbde73.png",
     "static/media/BannerBG2.jpg": "/portfolio/static/media/BannerBG2.c7ea4ce52551af078550.jpg",
-    "static/media/C Sharp.png": "/portfolio/static/media/C Sharp.7f7159aad7bc573d9ddf.png",
     "static/media/Discord.png": "/portfolio/static/media/Discord.1eb3445cca7f34ec523c.png",
     "static/media/UnityGame.gif": "/portfolio/static/media/UnityGame.1ee79dbf670517e03470.gif",
-    "static/media/MERN.png": "/portfolio/static/media/MERN.563759306269faca2961.png",
-    "static/media/C.png": "/portfolio/static/media/C.fab8ef9084e67e278564.png",
-    "static/media/JS.png": "/portfolio/static/media/JS.ba8930b16477cd078808.png",
+    "static/media/MERN.png": "/portfolio/static/media/MERN.0fa9b490eb89e336896d.png",
+    "static/media/C Sharp.png": "/portfolio/static/media/C Sharp.69a42bcdeaa0c5fefcfd.png",
+    "static/media/python.png": "/portfolio/static/media/python.f691d2dc5b71450179c0.png",
     "static/media/java.png": "/portfolio/static/media/java.7f7530c997fa190be8f4.png",
+    "static/media/JS.png": "/portfolio/static/media/JS.31961431e3ae356916cf.png",
+    "static/media/C.png": "/portfolio/static/media/C.06c31cd90cc2b1ddcf7c.png",
+    "static/media/css.png": "/portfolio/static/media/css.6253b9f39a92fd7b265b.png",
     "static/media/github.png": "/portfolio/static/media/github.987334e9f782cc505f25.png",
+    "static/media/html.png": "/portfolio/static/media/html.2ec1e823f168572082ab.png",
+    "static/media/unity.png": "/portfolio/static/media/unity.74c0ec30d179cc8d4375.png",
     "static/media/revicons.eot": "/portfolio/static/media/revicons.a77de540a38981833f9e.eot",
     "static/media/revicons.ttf": "/portfolio/static/media/revicons.57fd05d4ae650374c8de.ttf",
     "static/media/revicons.woff": "/portfolio/static/media/revicons.e8746a624ed098489406.woff",
@@ -36,11 +37,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.a2c1e0df.css.map": "/portfolio/static/css/main.a2c1e0df.css.map",
-    "main.f1552aa6.js.map": "/portfolio/static/js/main.f1552aa6.js.map"
+    "main.855398ce.css.map": "/portfolio/static/css/main.855398ce.css.map",
+    "main.cd39ab3f.js.map": "/portfolio/static/js/main.cd39ab3f.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2c1e0df.css",
-    "static/js/main.f1552aa6.js"
+    "static/css/main.855398ce.css",
+    "static/js/main.cd39ab3f.js"
   ]
 }
