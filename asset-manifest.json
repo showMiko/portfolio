@@ -1,30 +1,29 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d4dfd0e2.css",
-    "main.js": "/portfolio/static/js/main.e99756e3.js",
-    "static/media/Mouse.jpg": "/portfolio/static/media/Mouse.81d756ebdef5bae345d4.jpg",
-    "static/media/UnityGame.jpg": "/portfolio/static/media/UnityGame.08b054f9ee7fb136f5a7.jpg",
-    "static/media/imdb.jpg": "/portfolio/static/media/imdb.953db61dd6af87ad64c7.jpg",
-    "static/media/food fiesta.jpg": "/portfolio/static/media/food fiesta.9c6fd5dab8336e34c4f4.jpg",
+    "main.css": "/portfolio/static/css/main.a2c1e0df.css",
+    "main.js": "/portfolio/static/js/main.f1552aa6.js",
+    "static/media/Mouse.gif": "/portfolio/static/media/Mouse.6b56ad2639742223123c.gif",
+    "static/media/imdb.gif": "/portfolio/static/media/imdb.143e22861e57b842ef8a.gif",
+    "static/media/food fiesta.gif": "/portfolio/static/media/food fiesta.f02b4f4ab2005df9682c.gif",
+    "static/media/todolist.gif": "/portfolio/static/media/todolist.cb5a76a567c195a8668c.gif",
+    "static/media/starwars.gif": "/portfolio/static/media/starwars.ab3fd5431f7bb79e4311.gif",
+    "static/media/password.gif": "/portfolio/static/media/password.e5d1277324649492a4cd.gif",
+    "static/media/calculater.gif": "/portfolio/static/media/calculater.30b97a625e05aa9aac73.gif",
     "static/media/color-sharp2-green.png": "/portfolio/static/media/color-sharp2-green.7a9d9f5f2d67ee626f8b.png",
     "static/media/contact.png": "/portfolio/static/media/contact.77b0f6ea27f0b4a0048e.png",
     "static/media/unity.png": "/portfolio/static/media/unity.b196c776e313b0a0c14f.png",
-    "static/media/Yoda-vs-Vader.jpg": "/portfolio/static/media/Yoda-vs-Vader.10f2b04683f0f1101aa4.jpg",
-    "static/media/ai trainer.jpg": "/portfolio/static/media/ai trainer.7feaed59387a2fa86222.jpg",
     "static/media/pngwing.com (3).png": "/portfolio/static/media/pngwing.com (3).f7cf39334c9c0b464f5d.png",
     "static/media/giphy.gif": "/portfolio/static/media/giphy.94e1de75e2c064111308.gif",
     "static/media/css.png": "/portfolio/static/media/css.19c8605d6b2861f5fbe0.png",
     "static/media/footer-bg-green.png": "/portfolio/static/media/footer-bg-green.51ed3466d505365c4764.png",
     "static/media/CentraNo2-Bold.ttf": "/portfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/portfolio/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
-    "static/media/todolist.jpg": "/portfolio/static/media/todolist.93b5ede684d7711b881b.jpg",
     "static/media/CentraNo2-Book.ttf": "/portfolio/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
     "static/media/html.png": "/portfolio/static/media/html.4de5d2224c60b7fbde73.png",
     "static/media/BannerBG2.jpg": "/portfolio/static/media/BannerBG2.c7ea4ce52551af078550.jpg",
-    "static/media/calculator.jpg": "/portfolio/static/media/calculator.5ffc903d4808e9d95d93.jpg",
     "static/media/C Sharp.png": "/portfolio/static/media/C Sharp.7f7159aad7bc573d9ddf.png",
-    "static/media/password.jpg": "/portfolio/static/media/password.724c09ae0b112cb0e30c.jpg",
     "static/media/Discord.png": "/portfolio/static/media/Discord.1eb3445cca7f34ec523c.png",
+    "static/media/UnityGame.gif": "/portfolio/static/media/UnityGame.1ee79dbf670517e03470.gif",
     "static/media/MERN.png": "/portfolio/static/media/MERN.563759306269faca2961.png",
     "static/media/C.png": "/portfolio/static/media/C.fab8ef9084e67e278564.png",
     "static/media/JS.png": "/portfolio/static/media/JS.ba8930b16477cd078808.png",
@@ -37,11 +36,11 @@
     "index.html": "/portfolio/index.html",
     "static/media/nav-icon1.svg": "/portfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/portfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.d4dfd0e2.css.map": "/portfolio/static/css/main.d4dfd0e2.css.map",
-    "main.e99756e3.js.map": "/portfolio/static/js/main.e99756e3.js.map"
+    "main.a2c1e0df.css.map": "/portfolio/static/css/main.a2c1e0df.css.map",
+    "main.f1552aa6.js.map": "/portfolio/static/js/main.f1552aa6.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4dfd0e2.css",
-    "static/js/main.e99756e3.js"
+    "static/css/main.a2c1e0df.css",
+    "static/js/main.f1552aa6.js"
   ]
 }
