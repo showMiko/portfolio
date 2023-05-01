@@ -1,13 +1,13 @@
 import React from 'react'
-import projImg1 from "../assets/Projects/Yoda-vs-Vader.jpg"
-import projImg2 from "../assets/Projects/password.jpg"
-import projImg3 from "../assets/Projects/ai trainer.jpg"
-import projImg4 from "../assets/Projects/calculator.jpg"
-import projImg5 from "../assets/Projects/todolist.jpg"
-import projImg6 from "../assets/Projects/food fiesta.jpg"
-import projImg7 from "../assets/Projects/imdb.jpg"
-import projImg8 from "../assets/Projects/Mouse.jpg"
-import projImg9 from "../assets/Projects/UnityGame.jpg"
+import projImg1 from "../assets/Projects/starwars.gif"
+import projImg2 from "../assets/Projects/password.gif"
+import projImg3 from "../assets/Projects/robot.gif"
+import projImg4 from "../assets/Projects/calculater.gif"
+import projImg5 from "../assets/Projects/todolist.gif"
+import projImg6 from "../assets/Projects/food fiesta.gif"
+import projImg7 from "../assets/Projects/imdb.gif"
+import projImg9 from "../assets/Projects/UnityGame.gif"
+import projImg10 from "../assets/Projects/Mouse.gif"
 import { Col, Container, Nav, Row, Tab, TabContent } from 'react-bootstrap'
 import ProjectCard from './ProjectCard'
 import colorSharp2 from "../assets/img/color-sharp2-green.png"
@@ -18,48 +18,57 @@ const Projects = () => {
         {
             title: "Star Wars",
             description: "Computer vision",
-            imgUrl: projImg1
+            imgUrl: projImg1,
+            projectlink:"https://github.com/showMiko/Python-Projects/tree/main/Starwars-Gesture-Game"
         },
         {
             title: "Password authentication system",
             description: "Computer vision",
-            imgUrl: projImg2
+            imgUrl: projImg2,
+            projectlink:"https://github.com/showMiko/Python-Projects/tree/main/passwordprotector"
         },
         {
             title: "Unity Game",
             description: "Unity Engine",
-            imgUrl: projImg9
+            imgUrl: projImg9,
+            projectlink:"#"
         },
         {
-            title: "Mern App",
+            title: "Food Fiesta",
             description: "Web Development",
-            imgUrl: projImg6
+            imgUrl: projImg6,
+            projectlink:"https://github.com/showMiko/MernFoodApp"
         },
         {
             title: "IMDB-CLONE",
             description: "Web Development",
-            imgUrl: projImg7
+            imgUrl: projImg7,
+            projectlink:"https://showmiko.github.io/imdb-react/"
         },
         {
             title: "Virtual Mouse",
             description: "Computer vision",
-            imgUrl: projImg8
+            imgUrl: projImg10,
+            projectlink:"https://github.com/showMiko/Python-Projects/tree/main/Mouse"
         },
         {
             title: "Todo List",
             description: "Web Development",
-            imgUrl: projImg5
+            imgUrl: projImg5,
+            projectlink:"https://github.com/showMiko/OIBSIP/tree/main/To-Do%20APP"
         },
         {
             
             title: `AI Trainer (in progress)`,
             description: "Computer vision",
-            imgUrl: projImg3
+            imgUrl: projImg3,
+            projectlink:"#"
         },
         {
             title: "Calculator",
             description: "Web Development",
-            imgUrl: projImg4
+            imgUrl: projImg4,
+            projectlink:"https://github.com/showMiko/OIBSIP/tree/main/Calculator"
         },
     ]
 
@@ -87,8 +96,6 @@ const Projects = () => {
                                             })
                                         }
                                     </Row>
-                                    <Tab.Pane eventKey="second"></Tab.Pane>
-                                    <Tab.Pane eventKey="third">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit, aut?</Tab.Pane>
                                 </Tab.Pane>
                             </Tab.Content>
                         </Tab.Container>

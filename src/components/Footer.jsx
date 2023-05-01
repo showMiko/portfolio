@@ -12,11 +12,11 @@ const Footer = () => {
       
         <Container>
             <Row>
-                <Col href="https://www.linkedin.com/in/soumik-samanta-aa030918b/"><img src={navIcon1} alt="" srcset="" /></Col>
-                  <Col href="https://www.facebook.com/Soumik2017/"><img src={navIcon2} alt="" srcset="" /></Col>
-                  <Col href="https://www.instagram.com/_sou_mik/" target='_blank'><img src={navIcon3} alt="" srcset="" /></Col>
-                  <Col href="https://github.com/showMiko" target='_blank'><img src={navIcon4} alt="" srcset="" /></Col>
-                  <Col href="https://discord.gg/VVrSfeyQ9T" target='_blank'><img src={navIcon5} alt="" srcset="" /></Col>
+                  <Col ><a href="https://www.linkedin.com/in/soumik-samanta-aa030918b/" target='_blank'><img src={navIcon1} alt="" srcset="" /></a></Col>
+                  <Col ><a href="https://www.facebook.com/Soumik2017/" target='_blank'><img src={navIcon2} alt="" srcset="" /></a></Col>
+                  <Col><a  href="https://www.instagram.com/_sou_mik/" target='_blank'><img src={navIcon3} alt="" srcset="" /></a></Col>
+                  <Col > <a href="https://github.com/showMiko" target='_blank'><img src={navIcon4} alt="" srcset="" /></a></Col>
+                  <Col ><a href="https://discord.gg/VVrSfeyQ9T" target='_blank'> <img src={navIcon5} alt="" srcset="" /></a></Col>
             </Row>
         </Container>
     </footer>
