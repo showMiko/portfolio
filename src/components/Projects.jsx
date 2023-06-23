@@ -23,7 +23,7 @@ const Projects = () => {
         },
         {
             
-            title: `AI Trainer (in progress)`,
+            title: `Play using AI`,
             description: "Computer vision",
             imgUrl: projImg3,
             projectlink:"https://sas-app-official.vercel.app/"
