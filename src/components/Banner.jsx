@@ -51,8 +51,8 @@ const Banner = () => {
                 <Col xs={12} md={6} xl={7}>
                     <span className='tagline'>Welcome to My PortFolio</span>
                     <h1 className='header-files' style={{marginRight:"9%"}}>{`Hi I am Soumik I am a `}<span className='wrap'>{text}</span></h1>
-                    <p>Hello. I am Soumik Samanta. I am Currently in my 3rd Year Pursuing my Btech from Academy Of Technology.</p>
-                    <a href='https://drive.google.com/file/d/19yjHDbAthfSJczSEGN8SnwsFyluDm955/view?usp=drive_link' target='_blank'>
+                    <p>Hello. I am Soumik Samanta. I am Currently in my 4th Year Pursuing my Btech from Academy Of Technology.</p>
+                    <a href='https://drive.google.com/file/d/1R_JFQBgziehipdZ2GI8y-CjM3fI6M3mR/view?usp=sharing' target='_blank'>
                     <button onClick={()=>console.log("connect")}>Resume<ArrowRightCircle/></button>
                     </a>
                 </Col>
