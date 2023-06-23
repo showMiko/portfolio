@@ -35,10 +35,10 @@ const Projects = () => {
             projectlink:"https://github.com/showMiko/Python-Projects/tree/main/passwordprotector"
         },
         {
-            title: "Unity Game",
+            title: "Shooting Game",
             description: "Unity Engine",
             imgUrl: projImg9,
-            projectlink:"#"
+            projectlink:"https://github.com/showMiko/shooting-game"
         },
         {
             title: "Food Fiesta",
@@ -65,10 +65,10 @@ const Projects = () => {
             projectlink:"https://github.com/showMiko/OIBSIP/tree/main/To-Do%20APP"
         },
         {
-            title: "Calculator",
-            description: "Web Development",
+            title: "Coin Collecting",
+            description: "Unity Engine",
             imgUrl: projImg4,
-            projectlink:"https://github.com/showMiko/OIBSIP/tree/main/Calculator"
+            projectlink:"https://github.com/showMiko/coin-collection"
         },
     ]
 
