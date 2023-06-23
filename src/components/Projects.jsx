@@ -22,6 +22,13 @@ const Projects = () => {
             projectlink:"https://github.com/showMiko/Python-Projects/tree/main/Starwars-Gesture-Game"
         },
         {
+            
+            title: `AI Trainer (in progress)`,
+            description: "Computer vision",
+            imgUrl: projImg3,
+            projectlink:"https://sas-app-official.vercel.app/"
+        },
+        {
             title: "Password authentication system",
             description: "Computer vision",
             imgUrl: projImg2,
@@ -56,13 +63,6 @@ const Projects = () => {
             description: "Web Development",
             imgUrl: projImg5,
             projectlink:"https://github.com/showMiko/OIBSIP/tree/main/To-Do%20APP"
-        },
-        {
-            
-            title: `AI Trainer (in progress)`,
-            description: "Computer vision",
-            imgUrl: projImg3,
-            projectlink:"#"
         },
         {
             title: "Calculator",
