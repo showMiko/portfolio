@@ -38,7 +38,7 @@ const Projects = () => {
             title: "Shooting Game",
             description: "Unity Engine",
             imgUrl: projImg9,
-            projectlink:"https://github.com/showMiko/shooting-game"
+            projectlink:"https://github.com/showMiko/Shooting-Game-Unity"
         },
         {
             title: "Food Fiesta",
@@ -68,7 +68,7 @@ const Projects = () => {
             title: "Coin Collecting",
             description: "Unity Engine",
             imgUrl: projImg4,
-            projectlink:"https://github.com/showMiko/coin-collection"
+            projectlink:"https://github.com/showMiko/Coin-Collecting-Unity"
         },
     ]
 
