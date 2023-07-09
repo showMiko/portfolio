@@ -41,12 +41,6 @@ const Projects = () => {
             projectlink:"https://github.com/showMiko/Shooting-Game-Unity"
         },
         {
-            title: "Food Fiesta",
-            description: "Web Development",
-            imgUrl: projImg6,
-            projectlink:"https://github.com/showMiko/MernFoodApp"
-        },
-        {
             title: "IMDB-CLONE",
             description: "Web Development",
             imgUrl: projImg7,
@@ -113,4 +107,11 @@ export default Projects
                                 <Nav.Item>
                                     <Nav.Link eventKey="first">Project 1</Nav.Link>
                                 </Nav.Item>
-                            </Nav> */}
+                            </Nav> 
+                                    {
+            title: "Food Fiesta",
+            description: "Web Development",
+            imgUrl: projImg6,
+            projectlink:"https://github.com/showMiko/MernFoodApp"
+        },
+                            */}
