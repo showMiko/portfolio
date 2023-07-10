@@ -47,6 +47,12 @@ const Projects = () => {
             projectlink:"https://showmiko.github.io/imdb-react/"
         },
         {
+            title: "Anonymous ChatRoom",
+            description: "Web Development",
+            imgUrl: projImg6,
+            projectlink:"https://chatroom-23e4a.web.app/"
+        },
+        {
             title: "Virtual Mouse",
             description: "Computer vision",
             imgUrl: projImg10,
@@ -108,10 +114,5 @@ export default Projects
                                     <Nav.Link eventKey="first">Project 1</Nav.Link>
                                 </Nav.Item>
                             </Nav> 
-                                    {
-            title: "Food Fiesta",
-            description: "Web Development",
-            imgUrl: projImg6,
-            projectlink:"https://github.com/showMiko/MernFoodApp"
-        },
+                                    
                             */}
