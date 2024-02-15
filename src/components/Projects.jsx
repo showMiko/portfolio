@@ -62,7 +62,7 @@ const Projects = () => {
             title: "Todo List",
             description: "Web Development",
             imgUrl: projImg5,
-            projectlink:"https://github.com/showMiko/OIBSIP/tree/main/To-Do%20APP"
+            projectlink:"https://github.com/showMiko/SpringBootTodoApp"
         },
         {
             title: "Coin Collecting",
